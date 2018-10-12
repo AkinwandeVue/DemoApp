@@ -6,9 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, MainMvpView{
 
     private EditText edit_username;
+    MainMvpPresenter mPresenter = new MainPresenter();
 
 
     @Override
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
 
-        edit_username = (EditText) findViewById(R.id.edit_username);
+        edit_username = findViewById(R.id.edit_username);
 
         findViewById(R.id.btn_download).setOnClickListener(this);
         findViewById(R.id.btn_go).setOnClickListener(this);
@@ -49,4 +50,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
     }
+
+
 }

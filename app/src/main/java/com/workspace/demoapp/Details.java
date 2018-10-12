@@ -7,10 +7,6 @@ public class Details {
     private int phone, account, date;
 
 
-    public Details(){
-
-    }
-
     public Details(String name, String transaction, double amount, int phone, int account, int date) {
         this.name = name;
         this.transaction = transaction;
