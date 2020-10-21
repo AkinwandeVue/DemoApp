@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-10-21T18:26:03.022Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="o_rqIOb_tTxpN_1tNIYz" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-21T18:34:55.528Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="jqEH2WHdpqUx-GKScE3E" version="13.8.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1773" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="CompetitorList" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="CompetitorList" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-60" y="75" width="230" height="440" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -18,7 +18,7 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--5" value="- fileToArray()&#xa;&#xa;- total(): int&#xa;&#xa;- processLine(String)&#xa;&#xa;- getAllCompetitor(): ArrayList&#xa;&#xa;- splitName(): String[]&#xa;&#xa;- splitScore(): ArrayList&#xa;&#xa;- maxOverall(): double&#xa;&#xa;- minOverall(): double&#xa;&#xa;- scoreFrequency(): HashMap&#xa;&#xa;- isValid(int): boolean&#xa;&#xa;- getCompetitor(int): OAICompetitor&#xa;&#xa;- getName(): Name&#xa;&#xa;- checkEachLine(): boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="60" width="230" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--17" value="Manager" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--17" value="Manager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="214" y="30" width="200" height="482" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -38,19 +38,19 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--25" value="- setCompetitor(): &#xa;&#xa;- setWriter(String):&#xa;&#xa;- writeToTable()&#xa;&#xa;- createCompleteReport(int)&#xa;&#xa;- writeCompetitorFullDetails(int):&#xa;&#xa;- writeCompetitorShortDetails(int):&#xa;&#xa;- writeSummaryStats:&#xa;&#xa;- getMapasArray(HashMap): Entry" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
           <mxGeometry y="138" width="200" height="334" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="OAICompetitor" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="500" y="150" width="160" height="600" as="geometry">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="OAICompetitor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="500" y="150" width="200" height="600" as="geometry">
             <mxRectangle x="120" y="360" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--7" value="- number&#xa;&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+          <mxGeometry y="26" width="200" height="22" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--8" value="- name&#xa;&#xa;- level&#xa;&#xa;- age&#xa;&#xa;- scores&#xa;&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="52" width="160" height="108" as="geometry" />
+          <mxGeometry y="48" width="200" height="108" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="160" width="160" height="8" as="geometry" />
+          <mxGeometry y="156" width="200" height="8" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--11" value="- setNumber(int):&#xa;&#xa;- getName(): Name&#xa;&#xa;- setName(Name):&#xa;&#xa;- getLevel(): Level&#xa;&#xa;- setLevel(Level)&#xa;&#xa;- getAge(): int&#xa;&#xa;- setAge(int)&#xa;&#xa;- average(): double&#xa;&#xa;- arrToString(): String&#xa;&#xa;- getScoreArray: ArrayList&#xa;&#xa;- typeCastToInteger(double): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="500" y="344" width="160" height="406" as="geometry" />
@@ -58,8 +58,8 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--10" value="+ getNumber(): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="499" y="320" width="160" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="dgGestrykTcDV0_tA88d-17" value="Name" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="110" y="540" width="200" height="502" as="geometry">
+        <mxCell id="dgGestrykTcDV0_tA88d-17" value="Name" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="540" width="200" height="330" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -69,14 +69,25 @@
         <mxCell id="dgGestrykTcDV0_tA88d-19" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dgGestrykTcDV0_tA88d-17">
           <mxGeometry y="110" width="200" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="dgGestrykTcDV0_tA88d-20" value="- getAllCompetitors()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dgGestrykTcDV0_tA88d-17">
+        <mxCell id="dgGestrykTcDV0_tA88d-20" value="- getFirstName(): String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dgGestrykTcDV0_tA88d-17">
           <mxGeometry y="118" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="dgGestrykTcDV0_tA88d-21" value="- allCompetitors" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dgGestrykTcDV0_tA88d-17">
+        <mxCell id="dgGestrykTcDV0_tA88d-21" value="- setFirstName(String)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dgGestrykTcDV0_tA88d-17">
           <mxGeometry y="144" width="200" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="dgGestrykTcDV0_tA88d-22" value="- setCompetitor(): &#xa;&#xa;- setWriter(String):&#xa;&#xa;- writeToTable()&#xa;&#xa;- createCompleteReport(int)&#xa;&#xa;- writeCompetitorFullDetails(int):&#xa;&#xa;- writeCompetitorShortDetails(int):&#xa;&#xa;- writeSummaryStats:&#xa;&#xa;- getMapasArray(HashMap): Entry" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dgGestrykTcDV0_tA88d-17">
-          <mxGeometry y="168" width="200" height="334" as="geometry" />
+        <mxCell id="dgGestrykTcDV0_tA88d-22" value="- getLastName(): String&#xa;&#xa;- setLastName(String): String&#xa;&#xa;- getMiddleName(): String&#xa;&#xa;- setMiddleName(): String&#xa;&#xa;- getFullName(): String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dgGestrykTcDV0_tA88d-17">
+          <mxGeometry y="168" width="200" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGestrykTcDV0_tA88d-23" value="Enum Level" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-160" y="570" width="200" height="160" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGestrykTcDV0_tA88d-24" value="NOVICE&#xa;&#xa;INTERMIDIATE&#xa;&#xa;ADVANCED&#xa;&#xa;EXPERT" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="dgGestrykTcDV0_tA88d-23">
+          <mxGeometry y="26" width="200" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGestrykTcDV0_tA88d-25" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dgGestrykTcDV0_tA88d-23">
+          <mxGeometry y="140" width="200" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
