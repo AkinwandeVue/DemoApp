@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-21T18:09:58.900Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="gPqdIb_9TzxShLadK_WA" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-21T18:10:50.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="HbhIeXXegVR5Gi2NBz2e" version="13.8.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1773" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="dgGestrykTcDV0_tA88d-5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-160" y="240" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="CompetitorList" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="CompetitorList" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-60" y="75" width="230" height="440" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -69,8 +69,8 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--11" value="- setNumber(int):&#xa;&#xa;- getName(): Name&#xa;&#xa;- setName(Name):&#xa;&#xa;- getLevel(): Level&#xa;&#xa;- setLevel(Level)&#xa;&#xa;- getAge(): int&#xa;&#xa;- setAge(int)&#xa;&#xa;- average(): double&#xa;&#xa;- arrToString(): String&#xa;&#xa;- getScoreArray: ArrayList&#xa;&#xa;- typeCastToInteger(double): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="500" y="344" width="160" height="406" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--10" value="- getNumber(): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="500" y="320" width="160" height="24" as="geometry" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--10" value="+ getNumber(): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="499" y="320" width="160" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
