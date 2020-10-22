@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-22T16:12:52.821Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="ZAw3XIWsPC8gM6eYCxbZ" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-22T16:13:25.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="1LLyAeEd_anKBs60h8TJ" version="13.8.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1351" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,23 +39,6 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--11" value="+ getNumber(): int&#xa;&#xa;+ setNumber(number :int):&#xa;&#xa;+ getName(): Name&#xa;&#xa;+ setName(name :Name)&#xa;&#xa;+ getLevel(): Level&#xa;&#xa;+ setLevel(level :Level)&#xa;&#xa;+ getAge(): int&#xa;&#xa;+ setAge(age :int)&#xa;&#xa;+ average(): double&#xa;&#xa;+ arrToString(): String&#xa;&#xa;+ getScoreArray: ArrayList&#xa;&#xa;- typeCastToInteger(num :double): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="184" width="461" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="dgGestrykTcDV0_tA88d-17" value="Name" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="910" width="350" height="330" as="geometry">
-            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dgGestrykTcDV0_tA88d-18" value="- firstName: String&#xa;&#xa;- lastName: String&#xa;&#xa;- middleName: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="dgGestrykTcDV0_tA88d-17">
-          <mxGeometry y="26" width="350" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="dgGestrykTcDV0_tA88d-19" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dgGestrykTcDV0_tA88d-17">
-          <mxGeometry y="110" width="350" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="dgGestrykTcDV0_tA88d-21" value="+ Name(firstName :string, lastName :string, middleName :string)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dgGestrykTcDV0_tA88d-17">
-          <mxGeometry y="118" width="350" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="dgGestrykTcDV0_tA88d-22" value="+ setFirstName(String)&#xa;&#xa;+ getLastName(): String&#xa;&#xa;+ setLastName(lastName: String)&#xa;&#xa;+ getMiddleName(): String&#xa;&#xa;+ setMiddleName(middleName: String)&#xa;&#xa;+ getFullName(): String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dgGestrykTcDV0_tA88d-17">
-          <mxGeometry y="142" width="350" height="164" as="geometry" />
-        </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="CompetitorList" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="20" y="810" width="300" height="460" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
@@ -71,7 +54,7 @@
           <mxGeometry y="60" width="300" height="400" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--17" value="Manager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="25" y="150" width="290" height="420" as="geometry">
+          <mxGeometry x="25" y="150" width="290" height="390" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -108,6 +91,23 @@
         </mxCell>
         <mxCell id="dgGestrykTcDV0_tA88d-52" value="+ main(args :String[])" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="dgGestrykTcDV0_tA88d-48">
           <mxGeometry y="34" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGestrykTcDV0_tA88d-17" value="Name" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="940" width="350" height="330" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGestrykTcDV0_tA88d-18" value="- firstName: String&#xa;&#xa;- lastName: String&#xa;&#xa;- middleName: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="dgGestrykTcDV0_tA88d-17">
+          <mxGeometry y="26" width="350" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGestrykTcDV0_tA88d-19" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dgGestrykTcDV0_tA88d-17">
+          <mxGeometry y="110" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGestrykTcDV0_tA88d-21" value="+ Name(firstName :string, lastName :string, middleName :string)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dgGestrykTcDV0_tA88d-17">
+          <mxGeometry y="118" width="350" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGestrykTcDV0_tA88d-22" value="+ setFirstName(String)&#xa;&#xa;+ getLastName(): String&#xa;&#xa;+ setLastName(lastName: String)&#xa;&#xa;+ getMiddleName(): String&#xa;&#xa;+ setMiddleName(middleName: String)&#xa;&#xa;+ getFullName(): String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dgGestrykTcDV0_tA88d-17">
+          <mxGeometry y="142" width="350" height="164" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
